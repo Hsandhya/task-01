@@ -1,0 +1,175 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container-box{
+    width: 340.734px;
+    border: 1px solid black;
+    height: 74.112px;
+    display: flex;
+    
+}
+.box {
+  width: 340.734px;
+  height: 74.112px;
+  background-color: #fff;
+  margin: 10px;
+  border: 0.904px solid #C8C8C8;
+  border-radius: 3.615px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  }
+  
+  .box.expanded {
+    width: 340.734px;
+    height: 161.781px;
+    background: #F4FBF9;
+  }
+  
+  .contentB {
+    display: none;
+  }
+  .contentA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px 15px 10px 15px;
+  }
+  
+  
+  .box.expanded .contentB {
+    display: block;
+    margin-top: 5px;
+
+  }
+
+  .spanclass{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .spanmain{
+    display: flex;
+  }
+  button{
+    width: 340.734px;
+    height: 48px;
+    border: 1px solid rgb(25, 95, 25);
+    border-radius: 6px;
+    background: #007F61;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .underline{
+    color: #c7c7c7;
+    margin-top: -6px;
+  }
+  .heading{
+    display: flex;
+    gap: 20px;
+    color: #007F61;
+font-family: "Metropolis";
+font-size: 18.076px;
+font-style: normal;
+font-weight: 500;
+}
+.span-text{
+  color: #000;
+font-family: "Metropolis";
+font-size: 14.461px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 6px;
+}
+.span-sub-text{
+  color: #000;
+font-family: "Metropolis";
+font-size: 14.461px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+}
+.offer-text{
+  margin-top: 20px;
+  font-size: 14.461px;
+  font-weight: bold;
+  color: #000;
+font-family: "Metropolis";
+font-style: normal;
+line-height: normal;
+text-transform: uppercase;
+
+}
+.button-text{
+  color: #FFF;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.expanded-container{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 20px;
+}
+.variant-text{
+  margin-left: 40px;
+  display: flex;
+  gap: 40px;
+}
+.upper-button-text{
+  display: flex;
+  gap: 75px;
+  margin: 15px 0;
+}
+.upper-button-text a{
+  text-decoration: none;
+  color: #007F61;
+  font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.copyright-text{
+  color: #000;
+font-family: "Inter";
+font-size: 12px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
+.copyright-text{
+  margin: 5px 0 0 210px;
+}
+
+
+
+
+
+
+
+
+  @font-face {
+    font-family: 'Metropolis'; 
+    src: url('../public/Metropolis-Regular.woff') format('truetype');
+    
+  }
+  @font-face {
+    font-family: 'Inter'; 
+    src: url('../public/Inter-Regular.ttf') format('truetype');
+    
+  }
